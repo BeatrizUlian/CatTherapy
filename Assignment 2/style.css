@@ -1,0 +1,67 @@
+body {
+    background-color: antiquewhite;
+    background-image: url("https://media2.giphy.com/media/l2JJDdD7cv4xdGGis/giphy.gif?cid=ecf05e47r3yrjl5bzda7vgtlrn0eo04i3mmvxwrk8lfq3mzc&rid=giphy.gif&ct=g");
+    background-size: cover;
+    font-family: 'Baloo Tamma 2';
+}
+
+a {
+    text-decoration: none;
+    color: aqua;
+}
+
+a:hover {
+    color: bisque;
+}
+
+p {
+    color: white;
+    font-family: 'Baloo Tamma 2';
+}
+
+h1 {
+    font-size: 54px;
+    background-image: linear-gradient(to right, violet, indigo, blue, green, yellow, orange, red);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-family: 'Henny Penny';
+}
+
+main {
+    margin: auto;
+    text-align: center;
+}
+
+.cats {
+    height: 400px;
+}
+
+#cat {
+
+    border-radius: 5%;
+
+}
+
+#button {
+    width: 200px;
+    padding: 10px;
+    color: aqua;
+    background-color: black;
+    margin-bottom: 60px;
+    border: 2px solid black;
+    font-family: "Baloo Tamma 2";
+}
+
+#button:hover {
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    border: 2px solid white;
+}
+
+footer {
+    margin-top: 100px;
+    background-color: black;
+    text-align: center;
+    padding: 2px;
+}
